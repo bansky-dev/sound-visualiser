@@ -9,6 +9,13 @@ class Program
     {
         // SOUND VISUALISER MADE BY BANSKY (NOT THE BRI'ISH ARTIST)
 
+        System.Console.WriteLine("=====SOUND-VISUALISER=====");
+        System.Console.Write("Choose your file path (mp3 file)");
+        string mp3FilePathChoice = Console.ReadLine();
+        System.Console.WriteLine("Now, choose your config");
+
+        //TODO: finish the menu
+
         var renderingSettings = new StandardWaveFormRendererSettings();
         renderingSettings.Width = 640;
         renderingSettings.TopHeight = 32;
